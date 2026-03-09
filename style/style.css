@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #cfd6e1;
+    font-family: sans-serif;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upload__wraper{
+    background-color: #fff;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    width: 500px;
+    height: 600px;
+    padding: 26px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.upload__wraper__top{
+
+}
+
+.upload__wraper__bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px #bdc5dc dashed;
+    border-radius: 2rem;
+    font-weight: bold;
+    color: #8fa1d8;
+    font-size: 1.5rem;
+}
+
+.upload__wraper__top h1{
+    color: #5a81da;
+    margin-bottom: 1rem;
+}
+
+.first__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.first__item div{
+    display: flex;
+    align-items: center;
+}
+
+.first__item div h2{
+    color: #5a81da;
+}
+
+.second__item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.img{
+
+}
+
+.right__side{
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    flex-basis: 100%;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.info__top__div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info__top__div h2{
+    color: #a4bffc;
+}
+
+.info__bottom__div-1,.info__bottom__div-2{
+    height: 5px;
+    background-color: #e3e3e3;
+    position: relative;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.info__bottom__div-1::after{
+    content: "";
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    background-image: linear-gradient(to right,#f432ac,#e70669);
+}
+
+.info__bottom__div-2::after{
+    content: "";
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    background-image: linear-gradient(to right,#f432ac,#e70669);
+}
+
+label{
+    display: flex;
+    width: 100%;
+    height: 8rem;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
